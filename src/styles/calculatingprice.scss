@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@400;500;900&display=swap');
+@keyframes show-from-right {
+    100% {
+      transform: translateX(-52.6vw);
+    }
+  }
+.pricecalculation{
+    position: relative;
+    width: 508px;
+    height: 471px;
+    border-radius: 10px;
+    background: #FFF;
+    z-index: 1;
+    top: -96%;
+    left: 85.2vw;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    animation: show-from-right 1s ease-out 0s 1 normal forwards;
+    span:first-child {
+        margin-top: 6%;
+        margin-left: 6%;
+        margin-bottom: 5%;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        width: 250px;
+    }
+    span{
+        align-self: flex-start;
+        margin-left: 6.1%;
+        margin-bottom: 2%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13px;
+    }
+
+    .filters{
+        display: flex;
+        flex-flow: row nowrap;
+        width: 90%;
+        height: 35px;
+        margin-bottom: 6.4%;
+
+        input[type=range]  {
+            margin-top: 1.7%;
+            margin-left: 1%;
+            width: 98%;
+            -webkit-appearance: none;
+            appearance :none;
+            height: 12px;
+            border-radius: 4px;
+            background-image: linear-gradient(90deg, rgba(190,105,213,1) 50%, rgba(186,241,255,1) 50%);
+            background-repeat: no-repeat;
+            background-size: 200% 12px;
+            background-position: 50% 0;
+            cursor: pointer;
+        }
+
+    
+        input[type=range]::-webkit-slider-thumb {
+            
+            width: 33px;
+            height: 33px;
+            border-radius: 100px;
+            background: #302594;
+            cursor: pointer;
+            -webkit-appearance: none;
+        }
+    }
+
+    .sendbutton{
+        width: 185px;
+        height: 60px;
+        border-radius: 4px;
+        margin-top: -1%;
+        background: #302594;
+        box-shadow: 0px 22px 22px 0px rgba(0, 0, 0, 0.25);
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+    }
+    .quadmeters{
+        color: #000;
+        font-family: Arial;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+        letter-spacing: 1px;
+        top: 23%;
+        left: 80.5%;
+        position: absolute;
+    }
+  }
+
+    .filter{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 150px;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+
+    
+    .selectimg{
+        background-blend-mode: multiply;
+        width: 34px;
+        height: 34px;
+        background-image: url("../images/Pointer.svg");
+        background-repeat: no-repeat;
+        background-size: 31px 31px;
+        margin-top: 1.5%;
+        margin-right: 7%;
+        border-radius: 30px;
+        transition: all 1s;
+        cursor: pointer;
+    }
+
+    .selectimg:hover{
+        background-image: url("../images/Checkbox.svg");
+    }
+
+    .selected{
+        background-image: url("../images/Checkbox.svg");
+    }
+
+}
