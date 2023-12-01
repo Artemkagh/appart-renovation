@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/appart-renovation/static/css/main.d90bf51d.css",
-    "main.js": "/appart-renovation/static/js/main.d7801b84.js",
+    "main.js": "/appart-renovation/static/js/main.d689ee84.js",
     "static/media/Rectangle.png": "/appart-renovation/static/media/Rectangle.a5ade7d0d3c650c96cf9.png",
     "static/media/Time.svg": "/appart-renovation/static/media/Time.9bed5be27d2088a5badc3a98772ffdbc.svg",
     "static/media/Car.svg": "/appart-renovation/static/media/Car.e46b2ab870f07a63a87e6827928ee6e7.svg",
@@ -13,10 +13,10 @@
     "static/media/CloseMenu.svg": "/appart-renovation/static/media/CloseMenu.b76b146f09dee810cef0.svg",
     "index.html": "/appart-renovation/index.html",
     "main.d90bf51d.css.map": "/appart-renovation/static/css/main.d90bf51d.css.map",
-    "main.d7801b84.js.map": "/appart-renovation/static/js/main.d7801b84.js.map"
+    "main.d689ee84.js.map": "/appart-renovation/static/js/main.d689ee84.js.map"
   },
   "entrypoints": [
     "static/css/main.d90bf51d.css",
-    "static/js/main.d7801b84.js"
+    "static/js/main.d689ee84.js"
   ]
 }
