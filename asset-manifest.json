@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/appart-renovation/static/css/main.d90bf51d.css",
+    "main.js": "/appart-renovation/static/js/main.d7801b84.js",
+    "static/media/Rectangle.png": "/appart-renovation/static/media/Rectangle.a5ade7d0d3c650c96cf9.png",
+    "static/media/Time.svg": "/appart-renovation/static/media/Time.9bed5be27d2088a5badc3a98772ffdbc.svg",
+    "static/media/Car.svg": "/appart-renovation/static/media/Car.e46b2ab870f07a63a87e6827928ee6e7.svg",
+    "static/media/Medal.svg": "/appart-renovation/static/media/Medal.29ea1d7987fb32f935ca7140b0c45377.svg",
+    "static/media/Pointer.svg": "/appart-renovation/static/media/Pointer.a4bb53bdfb3e755ab0bb.svg",
+    "static/media/Checkbox.svg": "/appart-renovation/static/media/Checkbox.b691d0453d4a59b0999f.svg",
+    "static/media/ScrollBtn.svg": "/appart-renovation/static/media/ScrollBtn.4e4ae9a79045500e5ef1.svg",
+    "static/media/phoneLogo.svg": "/appart-renovation/static/media/phoneLogo.6dd48a86e2dcb3da7d6276695aa92328.svg",
+    "static/media/CloseMenu.svg": "/appart-renovation/static/media/CloseMenu.b76b146f09dee810cef0.svg",
+    "index.html": "/appart-renovation/index.html",
+    "main.d90bf51d.css.map": "/appart-renovation/static/css/main.d90bf51d.css.map",
+    "main.d7801b84.js.map": "/appart-renovation/static/js/main.d7801b84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d90bf51d.css",
+    "static/js/main.d7801b84.js"
+  ]
+}
